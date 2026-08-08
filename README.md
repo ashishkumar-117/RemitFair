@@ -1,1 +1,22 @@
-# RemitFair
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+</div>
+
+# RemitFair Transfer Operations
+
+RemitFair is a remittance workflow and payout support platform that helps customers compare corridors, prepare transfer details, and complete international payment operations.
+
+This workspace contains the application source, local development workflow, and runtime configuration needed to run the product locally.
+
+Application endpoint: https://ai.studio/apps/402fe2dc-d939-4b53-a564-1a3c09d25349
+
+## Run Locally
+
+**Prerequisites:** Node.js
+
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Google API key
+3. Run the app:-
+   `npm run dev`
+
