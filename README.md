@@ -8,7 +8,7 @@ RemitFair is a remittance workflow and payout support platform that helps custom
 
 This workspace contains the application source, local development workflow, and runtime configuration needed to run the product locally.
 
-Application endpoint: https://ai.studio/apps/402fe2dc-d939-4b53-a564-1a3c09d25349
+Local development server: http://localhost:3000
 
 ## Run Locally
 
@@ -17,6 +17,6 @@ Application endpoint: https://ai.studio/apps/402fe2dc-d939-4b53-a564-1a3c09d2534
 1. Install dependencies:
    `npm install`
 2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Google API key
-3. Run the app:-
+3. Run the app:
    `npm run dev`
 
